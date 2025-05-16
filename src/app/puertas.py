@@ -27,7 +27,8 @@ def agregar_puerta(puertas, nombre):
 
     for puerta in puertas:
         if puerta["nombre"].lower() == nombre.lower():
-            return "La puerta ingresada ya esta registrada."
+            print("La puerta ingresada ya esta registrada.")
+            return
 
     puertas.append(nueva_puerta(nombre))
     guardar_puertas(puertas)

@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "064869be-4073-484c-a9e8-07aecfa58682",
+    "nombre": "Principal",
+    "estado": false
+  },
+  {
+    "id": "59b7046a-2a69-4f23-843e-a8b79672093c",
+    "nombre": "Dormitorio 1",
+    "estado": false
+  },
+  {
+    "id": "d1c22098-2d80-4895-9761-e348c58ea26e",
+    "nombre": "Domitorio 2",
+    "estado": false
+  },
+  {
+    "id": "46ea53cb-6e30-4ccb-9298-5285c213440e",
+    "nombre": "Dormitorio 2",
+    "estado": false
+  },
+  {
+    "id": "fbcc9edc-80e0-4631-94e8-3b1602cb8004",
+    "nombre": "Dormitorio 2",
+    "estado": false
+  },
+  {
+    "id": "3f558565-a8ea-4a35-82e0-b2e38a11e807",
+    "nombre": "Dormitorio 3",
+    "estado": false
+  },
+  {
+    "id": "e552cd43-0194-4f7d-8d49-6286e997ac00",
+    "nombre": "Dormitorio 3",
+    "estado": false
+  }
+]
