@@ -3,7 +3,7 @@ from data.puertas import *
 
 
 #  validación
-def validarInputs(nombre):
+def validar_inputs(nombre):
     if not nombre or not nombre.strip():
         return "El nombre no puede esta vacío"
 
@@ -20,7 +20,7 @@ def nueva_puerta(nombre):
 
 # agregar puerta
 def agregar_puerta(puertas, nombre):
-    mensaje_error = validarInputs(nombre)
+    mensaje_error = validar_inputs(nombre)
     if mensaje_error:
         print(mensaje_error)
         return
@@ -46,7 +46,7 @@ def listar_puertas(puertas):
 
 # buscar puerta
 def buscar_puerta(puertas, nombre):
-    mensaje_error = validarInputs(nombre)
+    mensaje_error = validar_inputs(nombre)
     if mensaje_error:
         print(mensaje_error)
         return
@@ -61,7 +61,7 @@ def buscar_puerta(puertas, nombre):
 
 # eliminar puerta
 def eliminar_puerta(puertas, nombre):
-    mensaje_error = validarInputs(nombre)
+    mensaje_error = validar_inputs(nombre)
     if mensaje_error:
         print(mensaje_error)
         return
