@@ -1,9 +1,13 @@
 from app.puertas import *
 from data.puertas import cargar_puertas
+from app.eventos import *
+
+hora = 16
 
 
 def main():
     puertas = cargar_puertas()
+    notificar_estado_puertas(puertas, hora)
 
     while True:
         accion = input(
@@ -24,7 +28,7 @@ def main():
         if accion == "d":
             nombre = input("Ingresar el nombre de la puerta: ")
             eliminar_puerta(puertas, nombre)
-            
+
         if accion == "e":
             break
 
