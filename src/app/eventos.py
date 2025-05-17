@@ -1,6 +1,9 @@
 from datetime import datetime
 
 
+hora = 23
+
+
 def notificar_estado_puertas(puertas, hora):
     tiempo = datetime.now().hour  # int
     print(tiempo)

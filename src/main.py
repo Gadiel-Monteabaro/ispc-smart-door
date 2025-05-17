@@ -2,7 +2,6 @@ from app.puertas import *
 from data.puertas import cargar_puertas
 from app.eventos import *
 
-hora = 16
 
 
 def main():
